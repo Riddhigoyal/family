@@ -1,0 +1,51 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 10px cyan;
+    font-family: cursive;
+}
+
+.heading_div{
+    border-radius: 15px;
+    float: none;
+    background-color: lawngreen;
+    box-shadow: -5px -5px 10px yellow;
+    padding: 10px;
+    color: red;
+}
+
+.heading_div2{
+    font-size: 18px;
+}
+
+.result_paraTag{
+    font-size: 21px;
+    box-shadow: 3px 3px 10px yellow;
+}
+
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 3;
+}
+
+canvas{
+    border:16px solid darkblue;
+    margin-top: 130px;
+    border-radius: 15px;
+    box-shadow: 5px -5px 10px lime;
+    box-decoration-break: slice;
+    animation-name: exam;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam{
+    from {border-image: url(design2.png) 30 round;}
+    to {border-image: url(design.png) 30 round;}
+}
